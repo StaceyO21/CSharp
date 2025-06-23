@@ -70,4 +70,22 @@ namespace BethanysPieShopHRM
         public static int CalculateYearlyWageExpressionBodied(int monthlyWage, int
             numberOfMonthsWorked, int bonus) => monthlyWage * numberOfMonthsWorked + bonus;
     }
+
+    public static void ParsingStrings()
+        {
+            console.Write("Enter the wage: ");
+            string wage = Console.ReadLine();
+
+            //int wageValue = int.Parse(wage);
+
+            int wageValue;
+            if (int.TryParse(wage, out wageValue))
+                Console.WriteLine("Parsing success: " + wageValue);
+            else
+                Console.WriteLine("Parsing failed");
+
+            string hireDateString = "12/20/2022";
+            DateTime hireDate = DateTime.Parse(hireDateString);
+            console.WriteLine("Parsed date: " + hireDate);
+       
 }
