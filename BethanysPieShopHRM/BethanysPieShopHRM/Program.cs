@@ -14,6 +14,11 @@
 
 // Employee bethany = new Employee("Bethany", "Smith", "bethany@snowball.be", new DateTime(1979, 1, 16), 25);
 
+bethany.PerformWork(25);
+
+int minimumBonus = 100;
+int recieveBonus = bethany.CalculateBonus(minimumBonus);
+Console.WriteLine($"The minimum bonus is {minimumBonus} and {bethany.firstName} has received a bonus of {recieveBonus}");
 //Employee testEmployee = bethany;
 //testEmployee.firstName = "Gill";
 //testEmployee.DisplayEmployeeDetails();
