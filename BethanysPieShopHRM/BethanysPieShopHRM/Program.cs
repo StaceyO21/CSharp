@@ -1,36 +1,87 @@
-﻿
 
-using BethanysPieShopHRM;
 
-Console.WriteLine("Creating an employee");
-Console.WriteLine("----------------\n");
+// using BethanysPieShopHRM;
 
-Employee bethany = new Employee("Bethany", "Smith",
-    "bethany@snowball.be", new DateTime(1979, 1, 16), 25);
+// <<<<<<< Value_Reference_Types
+// //int a = 42;
+// //int aCopy = a;
+// //Console.WriteLine($"Value of a: {a} and value of copy of a: {aCopy}");
+// //aCopy = 100;
+// //Console.WriteLine($"Value of a: {a} and value of copy of a: {aCopy}");
 
-bethany.DisplayEmployeeDetails();
+// Console.WriteLine("Creating an employee");
+// Console.WriteLine("---------------------\n");
 
-bethany.PerformWork();
-bethany.PerformWork();
-bethany.PerformWork(5);
+// Employee bethany = new Employee("Bethany", "Smith", "bethany@snowball.be", new DateTime(1979, 1, 16), 25);
 
-bethany.firstName = "John";
-bethany.hourlyRate = 10;
+//Employee testEmployee = bethany;
+//testEmployee.firstName = "Gill";
+//testEmployee.DisplayEmployeeDetails();
+//bethany.DisplayEmployeeDetails();
 
-string fn = bethany.firstName;
+//Console.WriteLine("Creating an employee");
+//Console.WriteLine("----------------\n");
 
-double receivedWageBethany = bethany.ReceiveWage(true);
-Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
+//Employee bethany = new Employee("Bethany", "Smith",
+//    "bethany@snowball.be", new DateTime(1979, 1, 16), 25);
 
-Console.WriteLine("Creating an employee");
-Console.WriteLine("----------------\n");
+//bethany.DisplayEmployeeDetails();
 
-Employee george = new("George", "Jones", "george@snowball.be", new DateTime(1984, 3, 28), 30);  
+//bethany.PerformWork();
+//bethany.PerformWork();
+//bethany.PerformWork(5);
 
-george.DisplayEmployeeDetails();
-george.PerformWork();
-george.PerformWork(5);
-george.PerformWork();
-george.PerformWork(3);
+//bethany.firstName = "John";
+//bethany.hourlyRate = 10;
 
-var receivedWageGeorge = george.ReceiveWage(true);
+//string fn = bethany.firstName;
+
+//double receivedWageBethany = bethany.ReceiveWage(true);
+//Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
+
+//Console.WriteLine("Creating an employee");
+//Console.WriteLine("----------------\n");
+
+//Employee george = new("George", "Jones", "george@snowball.be", new DateTime(1984, 3, 28), 30);  
+
+//george.DisplayEmployeeDetails();
+//george.PerformWork();
+//george.PerformWork(5);
+//george.PerformWork();
+//george.PerformWork(3);
+
+//var receivedWageGeorge = george.ReceiveWage(true);
+=======
+// Console.WriteLine("Creating an employee");
+// Console.WriteLine("----------------\n");
+
+// Employee bethany = new Employee("Bethany", "Smith",
+//     "bethany@snowball.be", new DateTime(1979, 1, 16), 25);
+
+// bethany.DisplayEmployeeDetails();
+
+// bethany.PerformWork();
+// bethany.PerformWork();
+// bethany.PerformWork(5);
+
+// bethany.firstName = "John";
+// bethany.hourlyRate = 10;
+
+// string fn = bethany.firstName;
+
+// double receivedWageBethany = bethany.ReceiveWage(true);
+// Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
+
+// Console.WriteLine("Creating an employee");
+// Console.WriteLine("----------------\n");
+
+// Employee george = new("George", "Jones", "george@snowball.be", new DateTime(1984, 3, 28), 30);  
+
+// george.DisplayEmployeeDetails();
+// george.PerformWork();
+// george.PerformWork(5);
+// george.PerformWork();
+// george.PerformWork(3);
+
+// var receivedWageGeorge = george.ReceiveWage(true);
+// >>>>>>> master
